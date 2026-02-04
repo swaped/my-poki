@@ -86,6 +86,10 @@ button:disabled {
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.suggestions-dropdown button {
+	color: #000;
+}
+
 .suggestion-item {
 	display: block;
 	width: 100%;
