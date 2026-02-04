@@ -1,6 +1,6 @@
 body {
 	display: flex;
-	place-item: flex-start;
+	place-items: flex-start!important;
 }
 
 #root {
