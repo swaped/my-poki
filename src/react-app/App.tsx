@@ -160,7 +160,7 @@ function App() {
 
       {pokemon && (
         <div className="pokemon-result">
-          <div className="header">
+          <div className="flex justify-between">
             <span>{pokemon.types.map((t: any) => t.type.name).join(", ")}</span>
             <span>{pokemon.base_experience}</span>
           </div>
